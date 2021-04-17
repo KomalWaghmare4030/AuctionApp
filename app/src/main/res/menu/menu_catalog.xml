@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item
+        android:icon="@drawable/user"
+        android:id="@+id/uname"
+        android:title="@string/username"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:showAsAction="collapseActionView"
+        />
+
+    <item
+        android:id="@+id/sellHistory"
+        android:title="@string/sell_history"
+        app:showAsAction="collapseActionView"
+        />
+    <item
+        android:id="@+id/buyHistory"
+        android:title="@string/buy_history"
+        app:showAsAction="collapseActionView"
+        />
+    <item
+        android:id="@+id/delete_account"
+        android:title="@string/delete_account"
+        app:showAsAction="collapseActionView"
+        />
+    <item
+        android:id="@+id/logOut"
+        android:title="@string/log_out"
+        app:showAsAction="collapseActionView"
+        />
+</menu>

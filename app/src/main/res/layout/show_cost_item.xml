@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="40dp"
+    app:cardBackgroundColor="#EE82EE"
+    app:cardElevation="8dp"
+    app:contentPadding="15dp"
+    android:layout_height="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:weightSum="6">
+
+    <ImageView
+            android:id="@+id/img"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1.5"
+            android:src="@drawable/cost" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="4.5"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:weightSum="4"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/s1"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="0dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_weight="2"
+                android:text="hello"
+                android:textColor="#000000"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/s2"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="hello"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+</LinearLayout>
+</android.support.v7.widget.CardView>

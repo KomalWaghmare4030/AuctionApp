@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Go4Fresh</string>
+    <string name="title_activity_buy_product">BuyProduct</string>
+    <string name="password_validation" translatable="false">Password should contain characters and at least one number</string>
+    <string name="go4fresh">Go4Fresh</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign In</string>
+    <string name="not_register">Not Register? Sign up here</string>
+    <string name="log_out">Log Out</string>
+    <string name="sell_products">Sell Products</string>
+    <string name="buy_products">Buy Products</string>
+    <string name="information">Information</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="city">City</string>
+    <string name="eg_email">for example : abc123@go4fresh.com </string>
+    <string name="register_now">Register Now</string>
+    <string name="already_register">Already Register? Sign in here</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_type">Product Type</string>
+    <string name="quantity_inKg">Quantity in kg</string>
+    <string name="quality">Product Quality</string>
+    <string name="min_price">Minimum Price for 1kg</string>
+    <string name="image" translatable="false">Select Product Image to Upload</string>
+    <string name="add_product">add Product</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_internet">Wake up your Internet Connection</string>
+    <string name="refresh_page">Refresh</string>
+    <string name="add_new_item">Add New Product</string>
+    <string name="update_product">Update Product</string>
+    <string name="delete_product">Delete Product</string>
+    <string name="add_cost">Add My Price</string>
+    <string name="add_price">Add Price</string>
+    <string name="add_your_price">Add your price here</string>
+    <string name="buy_product">Buy Product</string>
+    <string name="rates_are">Rates for this Product are </string>
+    <string name="see_rates">See Rates</string>
+    <string name="product_details">Product Details</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="farmer_name">Farmer Name</string>
+    <string name="customer_price">Customer Price for 1kg</string>
+    <string name="date">Date and Time of Order</string>
+    <string name="sell_history">Sell History</string>
+    <string name="buy_history">Buy History</string>
+    <string name="farmer_name1">Farmer Name</string>
+    <string name="your_price">Your Price for 1Kg</string>
+    <string name="delete_account">Delete my Account</string>
+    <string name="no_item">No Product Present here..</string>
+    <string name="account_delete_c" translatable="false">Are you sure you want to delete your account ? </string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="about_us">About us</string>
+    <string name="para" translatable="false">\t\tWe connect fresh produce suppliers with businesses and consumers by creating sustainable
+        practices and transparent processes through healthy interactions and a collaborative consumption approach As good health
+        is true wealth.\n\t\tTo develop safe and healthy ecosystem, we support small farmers, local produce, local communities and the
+        nature.Delivering wide range of conventional, organic, exotic fresh Fruits and Vegetables through direct farm sourcing and
+        distribution to Retailers, Wholesale Buyers, Restaurants, Food Processors and Institutional Canteens.
+        \n\t\tWe aggregate demand, we aggregate supply and help you to build scale.
+        \n\t\tWe value your time, your business and the relationship.
+    </string>
+    <string name="text" translatable="false">Are you sure you want to sell your product ?</string>
+    <string name="loading">loading...</string>
+    <string name="view_product">View Product</string>
+    <string name="product_rates">Product Rates</string>
+    <string-array name="quality_array">
+        <item>Excellent</item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+        <item>Very Low</item>
+    </string-array>
+
+</resources>
